@@ -1,2 +1,10 @@
 const fastifyPlugin = require('fastify-plugin')
 const mongoose = require('mongoose')
+
+async function dbConnector(fastify, options) {
+    try {
+        const url = "mongodb://localhost:27017/fastify-blog"
+        const db = await mongoose
+            .connect(url, {
+                useNewUrlParser: true
+            })

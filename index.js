@@ -3,7 +3,8 @@ const PORT = process.env.PORT || 3000;
 const app = fastify({
     logger: true
 })
-
+const db = require("./config/db")
+app.use(db())
 const fastify = require('fastify'); //Bring in Fastify
 const PORT = process.env.PORT || 3000;
 const app = fastify({
@@ -19,4 +20,4 @@ const start = async () => {
         process.exit(1)
     }
     }
-    start();
+start();

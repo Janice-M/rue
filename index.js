@@ -18,4 +18,4 @@ const start = async () => {
         app.log.error(err)
         process.exit(1)
     }
-  }
+    }

@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Janice-M/rue/issues"
   },
-  "homepage": "https://github.com/Janice-M/rue#readme"
+  "homepage": "https://github.com/Janice-M/rue#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^3.9.0",
+    "mongoose": "^5.11.1",
+    "nodemon": "^2.0.6"
+  }
 }

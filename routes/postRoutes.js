@@ -12,12 +12,12 @@ routes = [{
     method:'POST',
     url:'/api/post',
     handler:blogController.addNewPost,
-}
+},
 {
     method:'PUT',
     url:'/api/post/:id',
     handler: blogController.updatePut
-}
+},
 {
     method:'DELETE',
     url:'/api/post/:id',
@@ -26,3 +26,4 @@ routes = [{
 
 
 ]
+module.exports= routes

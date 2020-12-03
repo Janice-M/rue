@@ -19,8 +19,8 @@ routes = [{
     handler: blogController.updatePut
 }
 {
-    method:
-    url:
+    method:'DELETE',
+    url:'/api/post/:id',
     handler:
 }
 

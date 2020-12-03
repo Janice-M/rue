@@ -5,6 +5,8 @@ routes = [{
     handler: blogController
 }, 
     {   method: 'GET',
-    url: '/api/posts',
+        url: '/api/posts/:id',
+        handler : blogController.getSinglePost
+}
 
-}]
+]

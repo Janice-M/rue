@@ -1,1 +1,1 @@
-const blogController = require('../controller/blogController')
+const blogController = require('../controller/blogController');

@@ -14,9 +14,9 @@ routes = [{
     handler:blogController.addNewPost,
 }
 {
-    method:
-    url:
-    handler:
+    method:'PUT',
+    url:'/api/post/:id',
+    handler: blogController.updatePut
 }
 {
     method:

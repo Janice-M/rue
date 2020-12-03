@@ -21,7 +21,7 @@ routes = [{
 {
     method:'DELETE',
     url:'/api/post/:id',
-    handler:
+    handler: blogController.deletePost,
 }
 
 

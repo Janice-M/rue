@@ -9,9 +9,9 @@ routes = [{
         handler : blogController.getSinglePost
 },
 {
-    method:
-    url:
-    handler:
+    method:'POST',
+    url:'/api/post',
+    handler:blogController.addNewPost,
 }
 {
     method:
